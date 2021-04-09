@@ -1,11 +1,12 @@
 package game;
 
+import java.awt.*;
 import java.io.IOException;
 
 public class LaunchMala {
 
-    public static void main(String[] args) throws IOException {
-        SpaceMala mala = new SpaceMala();
+    public static void main(String[] args){
+        new SpaceMala();
 
     }
 }
